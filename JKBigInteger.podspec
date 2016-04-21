@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
                   DESC
   s.social_media_url = "https://twitter.com/janiskirsteins"
 
-  s.source = { :git => "https://github.com/kirsteins/JKBigInteger.git", :tag => s.version.to_s }
+  s.source = { :git => "https://github.com/astruts/JKBigInteger.git", :tag => s.version.to_s }
   s.source_files     = 'JKBigInteger/**/*.{c,h,m}'
 end
