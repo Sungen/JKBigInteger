@@ -48,6 +48,10 @@
         return nil;
     }
     
+    if (cString == NULL) {
+        return nil;
+    }
+    
     self = [super init];
     
     if (self) {
